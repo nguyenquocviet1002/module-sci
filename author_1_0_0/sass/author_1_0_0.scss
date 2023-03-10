@@ -1,8 +1,6 @@
 .author_1_0_0 {
     background-image: url(../images/bg-profile.jpg);
     background-repeat: no-repeat;
-    background-size: 1920px;
-    height: 200px;
 
     &__profile {
         display: flex;
@@ -13,6 +11,7 @@
 
     &__image {
         width: 20%;
+
         img {
             width: 100%;
             height: auto;
@@ -20,11 +19,10 @@
     }
 
     &__name {
-        p {
-            font-size: 22px;
-            font-weight: 600;
-            margin: 0;
-        }
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0;
+        color: #000;
     }
 
     &__info {
@@ -119,12 +117,12 @@
             border-bottom: 1px solid #f1f1f1;
         }
 
-        &:hover{
+        &:hover {
             background-color: #eee;
         }
     }
 
-    &__more{
+    &__more {
         background-color: transparent;
         border: none;
         float: right;
